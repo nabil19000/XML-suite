@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITestResponse">
+    <test name="UsingXML">
+        <classes>
+            <class name="day8.CreateUser" />
+            <class name="day8.GetUser" />
+            <class name="day8.UpdateUser" />
+            <class name="day8.DeleteUser" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+</suite>

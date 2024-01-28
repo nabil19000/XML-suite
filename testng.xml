@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITestResponse">
+    <test name="test1">
+        <classes>
+            <class name="day8.CreateUser" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="day8.GetUser" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+    <test name="test3">
+        <classes>
+            <class name="day8.UpdateUser" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+    <test name="test4">
+        <classes>
+            <class name="day8.DeleteUser" />
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+</suite>
+
+
